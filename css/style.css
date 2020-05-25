@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  /* position: relative; */
+  font-family: AwesomeFamily;
+}
+@font-face {
+  font-family: AwesomeFamily;
+  src: url("../KaushanScript-Regular.otf");
+}
+.bg {
+  width: 100%;
+  height: 660px;
+  background-image: url("../images/1.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+#MyName {
+  font-size: 30px;
+  color: yellow;
+  opacity: 0.8;
+  font-family: AwesomeFamily;
+}
+#MyName:hover {
+  color: orange;
+  opacity: 1;
+  transition: ease 0.7s;
+}
+
+#ListItems a {
+  color: white;
+  font-family: AwesomeFamily;
+  font-size: 18px;
+  padding: 15px;
+}
+#ListItems a:hover {
+  background-color: #fff;
+  color: #e91e63;
+  padding: 15px;
+  font-weight: bold;
+  transition: all 0.4s;
+}
+#job {
+  font-size: 30px;
+}
+#FullName {
+  padding-top: 270px;
+  color: #dc3545;
+  letter-spacing: 2px;
+  font-family: AwesomeFamily;
+}
+#btn {
+  margin-top: 15px;
+  padding: 15px 60px;
+  font-size: 20px;
+}
+#btn:hover {
+  box-shadow: 0 0 20px 8px #fff;
+  background-color: gold;
+  border-color: gold;
+  color: black;
+}
+#Navbar {
+  padding-top: 20px;
+}
+.black {
+  background-color: #002f44;
+}
+.black #Navbar {
+  transition: ease 0.8s;
+  padding-top: 0px;
+}
+.black #MyName {
+  transition: linear 0.3s;
+  font-size: 25px;
+  padding-top: 10px;
+}
+.black #ListItems a {
+  transition: linear 0.3s;
+  font-size: 16px;
+}
+.black #navbarBtn {
+  padding-top: 10px;
+  padding-right: 15px;
+}
+#FirstImg img {
+  width: 170px;
+  height: 170px;
+
+  border-radius: 50%;
+  border: 5px solid yellow;
+}
+#FirstImg img:nth-child(3) {
+  transform: translateX(-15px);
+}
+#FirstImg img:nth-child(1) {
+  transform: translateX(-15px);
+}
+#FirstText {
+  padding-right: 20px;
+}
+#FirstText span {
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+#FirstText p {
+  display: flex;
+  text-align: right;
+  font-size: 20px;
+}
+#SecondImg img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  border: 5px solid yellow;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+#SecondText span {
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  justify-content: flex-start;
+}
+#SecondText p {
+  display: flex;
+  font-size: 20px;
+}
+#myImg img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  outline: none;
+  border: 5px solid yellow;
+}
+#myText span {
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  justify-content: flex-start;
+}
+#myText p {
+  display: flex;
+  font-size: 20px;
+}
+#front-end {
+  width: 200px;
+  outline: none;
+}
+#expertise {
+  background-color: #f7f7f7;
+  padding-bottom: 80px;
+}
+#portfolioOne::after {
+  width: 92.5%;
+  height: 67%;
+  content: "";
+  background-image: url("../images/search.png");
+  background-size: 10rem;
+  background-repeat: no-repeat;
+  outline-color: none;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: all linear 0.4s;
+}
+#portfolioOne:hover::after {
+  background-color: rgba(254, 209, 54, 0.9);
+  opacity: 1;
+  cursor: pointer;
+  transition: linear 0.4s;
+}
+#portfolioTwo::after {
+  width: 92.5%;
+  height: 67%;
+  content: "";
+  background-image: url("../images/search.png");
+  background-size: 10rem;
+  background-repeat: no-repeat;
+  outline-color: none;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: all linear 0.4s;
+}
+#portfolioTwo:hover::after {
+  background-color: rgba(254, 209, 54, 0.9);
+  opacity: 1;
+  cursor: pointer;
+  transition: linear 0.4s;
+}
+#portfolioThree::after {
+  width: 92.5%;
+  height: 67%;
+  content: "";
+  background-image: url("../images/search.png");
+  background-size: 10rem;
+  background-repeat: no-repeat;
+  outline-color: none;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: all linear 0.4s;
+}
+#portfolioThree:hover::after {
+  background-color: rgba(254, 209, 54, 0.9);
+  opacity: 1;
+  cursor: pointer;
+  transition: linear 0.4s;
+}
+#forInput {
+  font-size: 20px;
+  outline: none;
+  padding: 15px;
+  cursor: pointer;
+  border: 1px solid yellowgreen;
+  border-radius: 5px;
+}
+#forEmail {
+  font-size: 20px;
+  outline: none;
+  padding: 15px;
+  cursor: pointer;
+  border: 1px solid yellowgreen;
+  border-radius: 5px;
+}
+#forNumber {
+  font-size: 20px;
+  outline: none;
+  padding: 15px;
+  cursor: pointer;
+  border: 1px solid yellowgreen;
+  border-radius: 5px;
+}
+#message {
+  width: 100%;
+  height: 200px;
+  font-size: 20px;
+  outline: none;
+  padding: 15px;
+  cursor: pointer;
+  border: 1px solid yellowgreen;
+  border-radius: 5px;
+}
+#forInput::-webkit-input-placeholder {
+  color: #000 !important;
+  font-size: 15px;
+}
+#message::-webkit-input-placeholder {
+  color: #000 !important;
+  font-size: 15px;
+}
+#forEmail::-webkit-input-placeholder {
+  color: #000 !important;
+  font-size: 15px;
+}
+#forNumber::-webkit-input-placeholder {
+  color: #000 !important;
+  font-size: 15px;
+}
+#ForSubmit {
+  width: 300px;
+  height: 60px;
+  background-color: #ff0057;
+  color: #fff;
+  border: 2px solid #fff;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  font-size: 30px;
+}
+#ForSubmit:hover {
+  background-color: #002f44;
+  transition: all 0.3s;
+}
+#icons a {
+  color: #000;
+  font-size: 40px;
+  margin-right: 5px;
+}
+#icons a:hover {
+  color: #e91e63;
+}
