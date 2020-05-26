@@ -124,7 +124,7 @@ portfolioTwo.addEventListener("click", function () {
   swalWithBootstrapButtons.fire({
     titleText: "Wesbos",
     position: "center",
-    html: `This project was built from scratch and fully customized with the client's request. <br/> <br/> <i class="fas fa-calendar-week"></i>- May - September 2020 <br/> <i class="fas fa-code"></i>-HTML/CSS, JavaScript/Jquery, Bootstrap <br/> <i class="fas fa-globe-americas"></i>-Vector Moving`,
+    html: `This project was built from scratch and fully customized with the client's request. <br/> <br/> <i class="fas fa-calendar-week"></i>- May - September 2020 <br/> <i class="fas fa-code"></i>-HTML/CSS, JavaScript/Jquery, Bootstrap <br/> <i class="fas fa-globe-americas"></i>-Wesbos`,
     showCloseButton: true,
     showCancelButton: true,
     cancelButtonColor: "#d33",
@@ -149,7 +149,7 @@ portfolioThree.addEventListener("click", function () {
   swalWithBootstrapButtons.fire({
     titleText: "R Store",
     position: "center",
-    html: `This project was built from scratch and fully customized with the client's request. <br/> <br/> <i class="fas fa-calendar-week"></i>- May - September 2020 <br/> <i class="fas fa-code"></i>-HTML/CSS, JavaScript/Jquery, Bootstrap <br/> <i class="fas fa-globe-americas"></i>-Vector Moving`,
+    html: `This project was built from scratch and fully customized with the client's request. <br/> <br/> <i class="fas fa-calendar-week"></i>- May - September 2020 <br/> <i class="fas fa-code"></i>-HTML/CSS, JavaScript/Jquery, Bootstrap <br/> <i class="fas fa-globe-americas"></i>-R Store`,
     showCloseButton: true,
     showCancelButton: true,
     cancelButtonColor: "#d33",

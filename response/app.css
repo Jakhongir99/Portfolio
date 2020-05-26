@@ -2,10 +2,6 @@
   #navBr {
     width: 100%;
   }
-  #ListItems a {
-    padding: 0px;
-    font-size: 16px;
-  }
   #btn {
     padding: 10px 40px;
     font-size: 15px;
@@ -55,7 +51,7 @@
     padding: 5px;
   }
   .bg {
-    background-image: url("../images/bgresponse.jpg");
+    background-image: url("../images/bgminwidth.jpg");
     background-size: cover;
   }
 
@@ -104,10 +100,11 @@
     margin-bottom: 10px;
   }
   #contactfake {
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 25px;
   }
   #ForSubmit {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   #icons {
     text-align: center;
@@ -121,8 +118,21 @@
     margin-bottom: 50px;
   }
   #portfolioOne::after {
-    width: 92%;
-    height: 66%;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    order: 5;
+  }
+  #portfolioTwo::after {
+    position: absolute;
+    width: 100%;
+  }
+  #portfolioThree::after {
+    position: absolute;
+    width: 100%;
+  }
+  #firstCard {
+    margin-bottom: 15px;
   }
 }
 
@@ -226,8 +236,22 @@
     width: 100%;
   }
   #portfolioOne::after {
-    width: 87.5%;
-    height: 55%;
+    position: absolute;
+    width: 100%;
+    height: 140px;
+    background-size: 6rem;
+  }
+  #portfolioTwo::after {
+    position: absolute;
+    width: 100%;
+    height: 140px;
+    background-size: 6rem;
+  }
+  #portfolioThree::after {
+    position: absolute;
+    width: 100%;
+    height: 140px;
+    background-size: 6rem;
   }
   #contactfake {
     margin: 30px 0px;
